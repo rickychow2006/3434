@@ -1,0 +1,38 @@
+/* .message-form-main {
+
+} */
+
+.message-form-container {
+    padding-top: 5px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-left: 0.1px solid gray;
+    border-top: none;
+}
+
+.message-form-input {
+    /* position: absolute; */
+    width: 94%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 6px 8px;
+    color: oldlace;
+    background-color: #1C1E22;
+    border: solid 1px gray;
+    border-radius: 5px;
+    overflow: auto;
+    outline: oldlace;
+}
+
+.message-submit-button {
+    /* position: relative; */
+    background-color: #1C1E22;
+    border: none;
+    padding: none;
+    font-size: 16px;
+    z-index: 2;
+}

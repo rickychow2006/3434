@@ -1,0 +1,260 @@
+.sidebar-main-container {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 236px;
+    background-color: #222629;
+    position: absolute;
+    font-family: sans-serif;
+    border-right: 1px solid gray;
+    overflow: scroll;
+}
+
+.sidebar-greeting-bullet {
+    font-size: 30px;
+    margin-right: 6px;
+    color: rgb(69, 216, 69);
+}
+
+.sidebar-currentuser-greeting {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 69px;
+    cursor: default;
+    color: oldlace;
+    font-weight: bold;
+    padding-left: 4%;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar-currentuser-greeting:hover {
+    background-color: #121518;
+}
+
+.channel-header-picture {
+    height: 38px;
+    border-radius: 4px;
+    position: absolute;
+    right: 18px;
+}
+
+.fa-caret-down {
+    margin-left: 4%;
+    font-size: 14px;
+    color: lightgray;
+    opacity: 0.5;
+}
+
+.sidebar-greeting-dropdown-content {
+    z-index: 11;
+    display: none;
+    position: absolute;
+    background-color: #1c1e22;
+    flex-direction: column;
+    width: 100%;
+    border: solid 1px gray;
+    border-radius: 5px;
+    top: 70px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+}
+
+.show {
+    display: flex;
+}
+
+.sidebar-logout-button {
+    background-color: inherit;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;
+    border: none;
+    width: 100%;
+    color: lightgray;
+    padding: 10px 0px;
+    padding-left: 6%;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
+.sidebar-logout-button:hover, .sidebar-edit-profile-button:hover {
+    background-color: #363636;
+}
+
+.dropdown-github, .dropdown-linkedin {
+    width: 94%;
+    text-decoration: none;
+    color: lightgray;
+    padding: 15px 0px;;
+    padding-left: 6%;
+    font-size: 13px;
+    cursor: default;
+    font-family: "Poppins", sans-serif;
+}
+
+.dropdown-github:hover, .dropdown-linkedin:hover {
+    background-color: #363636;
+
+} 
+
+.sidebar-jump-to {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #4d4d4f;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 16px;
+    padding: 6px 0px 6px 32px;
+    cursor: default;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
+.sidebar-search-icon {
+    position: absolute;
+    left: 8%;
+    top: 93px;
+    z-index: 2;
+    color:gray;
+}
+
+.sidebar-channels-title {
+    margin-top: 30px;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    color: oldlace;
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar-channels-render {
+    margin-top: 6px;
+    color: oldlace;
+    font-weight: 100;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sidebar-channels-render > ul > li > button {
+    /* margin-left: 6%; */
+    color: lightgray;
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #222629;
+    border: none;
+    outline: none;
+    padding: 4px 0px;
+    padding-left: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebar-channels-render > ul > li:hover {
+    background-color: #363636;
+}
+
+.sidebar-channels-render > ul > li > button.selected {
+    background-color: lightgray;
+    color: darkslategray;
+}
+
+.sidebar-channels-render > ul > li > button:hover {
+    background-color: #363636;
+    color: oldlace;
+}
+
+.sidebar-channels-render > ul > li > button.selected:hover {
+    background-color: lightgray;
+    color: darkslategray;
+}
+
+.sidebar-new-channel {
+    margin-top: 8px;
+    color: oldlace;
+    font-weight: 100;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: default;
+    padding-left: 5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.sidebar-new-channel:hover {
+    background-color: #363636;    
+}
+
+.sidebar-dms-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-dms-title {
+    margin-top: 30px;
+    margin-bottom: 6px;
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    color: oldlace;
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar-add-dm-icon {
+    color: #818385;
+    position: absolute;
+    right: 5%;
+    font-size: 24px;
+    font-weight: 100;
+    cursor: default;
+}
+
+.sidebar-add-dm-icon:hover {
+    color: oldlace;
+}
+
+.sidebar-dms-render {
+    color: lightgray;
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.sidebar-dms-render > ul > li > button {
+    color: lightgray;
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #222629;
+    border: none;
+    outline: none;
+    padding: 4px 6%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebar-dms-render > ul > li > button:hover {
+    background-color: #363636;
+    color: oldlace;
+}
+
+.sidebar-dms-render > ul > li > button.selected {
+    background-color: lightgray;
+    color: darkslategray;
+}
+
+.sidebar-dms-render > ul > li:hover {
+    background-color: #363636;
+}
+
+.sidebar-dms-render > ul > li > button.selected:hover {
+    background-color: lightgray;
+    color: darkslategray;
+}

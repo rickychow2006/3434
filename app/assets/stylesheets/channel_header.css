@@ -1,0 +1,109 @@
+.channel-header-container {
+    position: absolute;
+    right: 0;
+    left: 236px;
+    top: 0;
+    height: 69px;
+    display: flex;
+    background-color: #1C1E22;
+    border-bottom: 0.1px solid gray;
+    border-left: 0.1px solid gray;
+    overflow-wrap: normal;
+}
+
+.channel-header-right {
+    /* width: 70%; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.channel-header-title {
+    color: oldlace;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 16px;
+    margin-left: 3%;
+    font-family: "Poppins", sans-serif;
+    justify-content: flex-start;
+}
+
+.channel-header-subscribe {
+    display: flex;
+    background-color: inherit;
+    color: lightgray;
+    border: none;
+    height: 25%;
+    margin-left: 6%;
+    margin-top: 6px;
+    padding: 0px;
+    outline: none;
+}
+
+.channel-header-subscribe:hover {
+    color: oldlace;
+}
+
+.channel-header-delete {
+    background-color: inherit;
+    color: lightgray;
+    border: solid 1px grey;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-top: 20px;
+    height: 30px;
+    outline: none;
+}
+
+.channel-header-delete:hover {
+    background-color: #363636;
+}
+
+.channel-darkmode-selector {
+    background-color: inherit;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: lightgray;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    height: 25px;
+    position: absolute;
+    right: 25px;
+    outline: none;
+    opacity: 0.5;
+}
+
+.channel-darkmode-selector:hover {
+    color: oldlace;
+    opacity: 1;
+}
+
+.channel-header-search {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: inherit;
+    border: solid 1px gray;
+    border-radius: 5px;
+    width: 300px;
+    padding: 4px;
+    padding-left: 40px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 18px;
+    height: 25px;
+    position: absolute;
+    right: 70px;
+    outline: none;
+}
+
+.header-search-icon {
+    position: absolute;
+    right: 390px;
+    top: 29px;
+    z-index: 2;
+    color:gray;
+}
+
+.channel-header-search:hover {
+    background-color: #363636;
+}

@@ -1,0 +1,192 @@
+.splashpage-whole-main {
+    min-height: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#rollingball-gif {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    min-height: 200px;
+}
+
+.splashpage-first-bigtitle {
+    font-family: sans-serif;
+    position: relative;
+    z-index: 2;
+    min-height: 100px;
+    max-width: 600px;
+    font-size: 56px;
+    font-weight: bold;
+    left: 4%;
+    padding-top: 8%;
+    line-height: 60px;
+}
+
+.splashpage-first-text {
+    position: relative;
+    z-index: 2;
+    padding-top: 10px;
+    left: 4%;
+    font-size: 20px;
+    max-width: 500px;
+    line-height: 27px;
+}
+
+.splash-signup-link {
+    position: relative;
+    z-index: 2;
+    font: 14px sans-serif;
+    font-weight: 500;
+    color: white;
+    left: 5%;
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #611f69;
+    margin-right: 1%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.demo-signup-link {
+    position: relative;
+    z-index: 2;
+    font: 14px sans-serif;
+    font-weight: 500;
+    color: #611f69;
+    left: 5%;
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #E5E1DC;
+    margin-right: 8%;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #611f69;
+    
+}
+
+.splash-already-sign-in {
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 6%;
+    line-height: 20px;
+}
+
+.splash-signup-link:hover {
+    background-color: #4a154b;
+}
+
+.demo-signup-link:hover {
+    border: 2px solid #611f69;
+    padding: 19px 39px;
+}
+
+.splashpage-second {
+    text-align: center;
+    min-height: 200px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.splashpage-second-title {
+    padding-top: 100px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.splashpage-second-text {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.splashpage-second-vid {
+    margin-top: 30px;
+    width: 70%;
+    min-height: 470px;
+    box-shadow: 0 0 1.5rem rgba(105,105,105,.5);
+}
+
+.splashpage-third {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+.third-col {
+    padding-top: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 45px;
+}
+
+.splash-col-title {
+    padding-top: 24px;
+    padding-bottom: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.splash-col-content {
+    font-size: 18px;
+}
+
+.splashpage-footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 340px;
+    background-color: #4a154b;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-greeting {
+    flex-direction: row;
+}
+
+.slack-logo-footer {
+    height: 80px;
+    margin-top: 38px;
+    margin-left: 6%;
+}
+
+.footer-text {
+    color: oldlace;
+    font-size: 54px;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* margin-top: 120px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.footer-buttons {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-signup-link {
+    color: #4a154b;
+    background-color: oldlace;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: solid 1px oldlace;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer-contact-link {
+    text-decoration: none;
+    padding: 15px 30px;
+    border: solid 1px oldlace;
+    color: oldlace;
+    border-radius: 5px;
+    margin-left: 26px;
+}
